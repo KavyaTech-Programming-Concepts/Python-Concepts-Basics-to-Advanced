@@ -1,11 +1,6 @@
-# Define a variable
-x = 42
 
-# Print the value of the variable
-print("Value:", x)
-
-# Print the memory address of the variable using the id() function
-print("Memory Address:", hex(id(x)))
-
-# Print the datatype of the variable using the type() function
-print("Datatype:", type(x))
+x=10
+print("value:",x) #prints out the value of x which is 10
+print("id of x :", id(x)) #prints out the memory addressof the varibale
+print("id of 10: ",id(10)) ##prints out the memory addressof the object
+print("datetype: ",type(x)) #print out the type of the data
