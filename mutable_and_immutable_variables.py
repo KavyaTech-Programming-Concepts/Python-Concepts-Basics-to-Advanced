@@ -35,3 +35,5 @@ print(id(z))
 ##but we can do following things
 z=z+10
 print(id(z))   # we can see that the id of this z and previous z is not same because this is immutable variables
+
+y="raj"
