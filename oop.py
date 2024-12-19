@@ -51,3 +51,4 @@ class Department:
 
 t1=Department("kb sir", 39)
 t1.teach("analysis")
+print(Department.hod)
